@@ -1,4 +1,5 @@
 import "./App.css";
+import { getPostCategory } from "./api";
 import LeftMenu from "./components/LeftMenu";
 import Navbar from "./components/Navbar";
 import Post from "./components/Post";
@@ -6,6 +7,8 @@ import PostMenu from "./components/PostMenu";
 import RightMenu from "./components/RightMenu";
 
 function App() {
+  console.log(getPostCategory());
+
   return (
     <div className="App bg-gray-100">
       <Navbar />
