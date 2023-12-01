@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex gap-5 py-3 px-10 align-middle bg-white border-b-2">
+    <nav className="flex gap-5 py-3 px-5 2xl:px-40 lign-middle bg-white border-b-2">
       <a
         href="/index"
         className="bg-black p-2 text-white uppercase font-mono font-bold text-xl rounded-lg"
