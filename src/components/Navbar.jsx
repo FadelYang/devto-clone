@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="flex gap-5">
         <a
           href="/posts"
-          className="p-2 border-2 rounded-lg border-violet-600 text-violet-600"
+          className="p-2 border-2 rounded-lg border-violet-600 text-violet-600 hover:bg-violet-600 no-underline hover:text-white hover:uderline"
         >
           Create Post
         </a>

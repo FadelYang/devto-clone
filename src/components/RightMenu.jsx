@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { getPosts } from "../api";
+import React from "react";
 import RightMenuPost from "./RightMenuPost";
 
 const RightMenu = () => {

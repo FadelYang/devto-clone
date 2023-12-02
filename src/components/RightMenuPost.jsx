@@ -37,7 +37,7 @@ const RightMenuPost = () => {
     if (i <= 5) {
       return (
         <div className="border-b-2 p-5">
-          <p className="text-lg">{post.title}</p>
+          <p className="text-lg hover:text-violet-600 hover:cursor-pointer">{post.title}</p>
           <div className="mt-3 text-gray-500">
             <p>
               {commentTotal} {commentTotal > 1 ? "Comments" : "Comment"}
